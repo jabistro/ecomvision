@@ -12,6 +12,7 @@ import Geography from "scenes/geography/Geography";
 import Overview from "scenes/overview/Overview";
 import Daily from "scenes/daily/Daily";
 import Monthly from "scenes/monthly/Monthly";
+import Breakdown from "scenes/breakdown/Breakdown";
 import { themeSettings } from "theme";
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
               <Route path="/overview" element={<Overview />} />
               <Route path="/daily" element={<Daily />} />
               <Route path="/monthly" element={<Monthly />} />
+              <Route path="/breakdown" element={<Breakdown />} />
             </Route>
           </Routes>
         </ThemeProvider>
