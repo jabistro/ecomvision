@@ -9,6 +9,7 @@ import Layout from "scenes/layout/Layout";
 import Customers from "scenes/customers/Customers";
 import Transactions from "scenes/transactions/Transactions";
 import Geography from "scenes/geography/Geography";
+import Overview from "scenes/overview/Overview";
 import { themeSettings } from "theme";
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
               <Route path="/customers" element={<Customers />} />
               <Route path="/transactions" element={<Transactions />} />
               <Route path="/geography" element={<Geography />} />
+              <Route path="/overview" element={<Overview />} />
             </Route>
           </Routes>
         </ThemeProvider>
